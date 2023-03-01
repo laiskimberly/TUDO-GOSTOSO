@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+background-color: #f0f0f0;
+padding: 24px 59px 63px;
+}
+.main {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 26px 12px 27px;
+    
+}
+.title {
+    color: #ff6a28;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.description {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #61656d; 
+    display: block;
+    margin-bottom: 14px;
+}
+.image {
+    width: 100%;
+    height: auto;
+  }
+.informatives {
+    display: flex;
+    gap: 9px;
+    margin-top: 10px;
+}
+
+.box-informatives{
+  width: 118px;
+  height: 85px;
+
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.person {
+    width: 238px;
+    flex-direction: row;
+    background: #f0f0f0;
+    border-radius: 5px;
+
+  }
+  
+.person-wrapper {
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+.informative-title {
+    color: #61656d;
+    font-size: 14px;
+  }
+  
+.informative-emphasis {
+    font-size: 14px;         
+    font-weight: bold;
+    color: #ff6a28;
+    font-family: roboto;
+  
+    text-transform: uppercase;
+  }
+  
+.ingredients {
+    background-color: #ffffff;
+    border-radius: 5px;
+  
+    margin-top: 37px;
+    padding: 15px 27px 30px;
+    font-size: 14px;
+    font-family: roboto;
+    color: #61656d;
+
+  }
+  
+.ingredients-wrapper {
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap: 5px;
+   }
+
+.stepbystep {
+    background-color: #ffffff;
+    border-radius: 5px;
+  
+    margin-top: 37px;
+    padding: 15px 27px 30px;
+    font-size: 14px;
+    font-family: roboto;
+    color: #61656d;
+}
+
+.stepbystep-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap: 5px;
+}
+.information {
+    background-color: #ffffff;
+    border-radius: 5px;
+  
+    margin-top: 37px;
+    padding: 15px 27px 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #61656d;
+}
+.information-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    font-size: 16px;
+    background: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    border-left: center;
+    
+   
+}
+   /* nao consegui deixar o Titulo Ingredientes no Tamanho certo pois o mesmo esta
+   dentro da box-informative emphasis, que ja tem estabelicido tamanho 14 */
+   /* nao consegui deixar o texto ao lado da Foto da Ana Flávia */
+   /* nao consegui deixar a mesma largura o retangulo do Informações Adicionais =( */
